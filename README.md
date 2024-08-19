@@ -6,5 +6,5 @@ A única configuração para rodar o projeto, é abrir o mesmo no Visual Studio 
 # Como o projeto foi divido?
 O projeto foi divido da seguinte forma:
 * Pasta Models: onde ficam os modelos de retorno da api.
-* RestClient: onde é feita as chamadas para o endpoint da api acessada, nesse caso é a BattleMetrics. Poderia ser separado em uma bliblioteca de classes facilitando a escabilidade. 
+* RestClient: onde é feita as chamadas para o endpoint da api acessada, nesse caso é a BattleMetrics. Poderia ser separado em uma bliblioteca de classes facilitando a escabilidade mas escolhi essa forma para não aumentar o nível da complexidade do projeto. 
 * Controllers: Os endpoints disponiveis na api desenvolvida.
